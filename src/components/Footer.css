@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'pretendard-Light';
+    src: url(../font/Pretendard-ExtraLight.woff);
+}
+.footerBar {
+    width: 100%;
+    height: 22.5vw;
+    background-color: #242424;
+    display: flex;
+}
+
+.column1 {
+    width: 16%;
+    margin-left: 10%;
+    text-align: left;
+    padding-top: 3.5vw;
+}
+
+.Footerlogo {
+    width: 52%;
+}
+
+.text1 {
+    color: white;
+    font-family: 'pretendard';
+    font-size: 0.9vw;
+    margin-top: 1.3vw;
+}
+
+.text2 {
+    color: white;
+    font-family: 'pretendard';
+    margin-top: 0.8vw;
+    font-size: 1.9vw;
+}
+.text3 {
+    color: white;
+    font-family: 'pretendard';
+    margin-top: 0.8vw;
+    font-size: 0.9vw;
+
+}
+
+.column2 {
+    width: 28%;
+    padding-top: 7vw;
+    padding-left: 2vw;
+}
+
+.text4 {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.8vw;
+    font-family: 'pretendard-Light';
+    letter-spacing: -1%;
+    line-height: 40%;
+    color: #94a0ab;
+    font-weight: lighter;
+    margin-bottom: 1.3vw;
+}
+
+.column3 {
+    width: 20%;
+    margin-left: 11%;
+    padding-top: 11vw;
+}
+
+.fb {
+    width: 13%;
+    cursor: pointer;
+}
+
+.blog {
+    width: 13%;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    cursor: pointer;
+}
+
+.insta {
+    width: 13%;
+    cursor: pointer;
+}

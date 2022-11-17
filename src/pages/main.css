@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "pretendard";
+    src: url(../font/Pretendard-Regular.woff);
+  }
+
+  @font-face {
+    font-family: "pretendardSB";
+    src: url(../font/Pretendard-SemiBold.woff);
+  }
+
+  @font-face {
+    font-family: "pretendardEL";
+    src: url(../font/Pretendard-ExtraLight.woff);
+  }
+  
+  .App {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navMFS {
+    height: 3.2vw;
+    width: 100%;
+    background-color: #242424;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .textMFS {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    float: left;
+    color: white;
+    margin-top: 0.9vw;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .textMFS2 {
+    float: left;
+    color: #ffdb86;
+    margin-right: 0.3vw;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .banner {
+    width: 100%;
+    margin-top: 8.3vw;
+  }
+  
+  .bannerImage {
+    width: 100%;
+    background-image: url('../images/banner.png');
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bannerBox {
+    height: 26.5vw;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 13.5vw;
+  }
+
+  .bannerT {
+    font-family: 'pretendardSB';
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 3vw;
+  }
+
+  .bannerT2 {
+    font-family: 'pretendardEL';
+    font-size: 1.5vw;
+    color: white;
+    margin-bottom: 1vw;
+  }
+  
+  .bannerText {
+    font-family: 'pretendard';
+    font-size: 1.3vw;
+    margin-top: 15vw;
+  }
+  
+  .bannerImage1 {
+    width: 100%;
+    margin-top: -1.5vw;
+  }
+
+  .banner2Box {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .bannerImage2 {
+    width: 23%;
+    margin-top: 2vw;
+    box-shadow: 0.2vw 0.2vw 0.8vw #c4c4c4;
+  }
+
+  .bannerImage2:hover {
+    box-shadow: 0.2vw 0.2vw 0.8vw #929292;
+  }
+  
+  .system {
+    background-color: #EAF2EC;
+    margin-top: 5vw;
+  
+  }
+  .bannerImage3 {
+    width: 100%;
+    margin-top: 3vw;
+  }
+  
+  .bannerImage4 {
+    width: 65%;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+  }
+  
+  
+  
+  
+  
+  .navDownload {
+    height: 3.4vw;
+    width: 100%;
+    background-color: #316a43;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+  }
+  
+  .download {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    line-height: 60%;
+    float: left;
+    margin-top: 1.2vw;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .download2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    line-height: 60%;
+    float: left;
+    margin-top: 1.2vw;
+    margin-left: 0.3vw;
+    color: #ffdb86;
+    cursor: pointer;
+  }
+  
+  .MnavMFS {
+    height: 12.5vw;
+    background-color: #242424;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .MtextMFS {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    float: left;
+    color: white;
+    margin-top: 4vw;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .MtextMFS2 {
+    float: left;
+    color: #ffdb86;
+    margin-right: 0.3vw;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .Mbanner {
+    position: relative;
+    top: -20vw;
+    z-index: -1;
+  }
+  
+  .MbannerImage {
+    width: 100%;
+  }
+  
+  .MbannerImage1 {
+    width: 100%;
+    margin-top: 15vw;
+  }
+  
+  .MbannerImage2 {
+    width: 100%;
+    margin-top: 15vw;
+  }
+  
+  .Mbanner2 {
+    background-color: #F6F6F6
+  }
+  
+  .MbannerImage3 {
+    width: 100%;
+    margin-top: 20vw;
+  }
+  
+  .MbannerImage4 {
+    width: 100%;
+    margin-top: 18vw;
+    margin-bottom: 21vw;
+  }
+  
+  .MnavDownload {
+    height: 14vw;
+    width: 100%;
+    background-color: #316a43;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .Mdownload {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    line-height: 60%;
+    float: left;
+    margin-top: 6vw;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Mdownload2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4vw;
+    font-family: 'pretendard';
+    letter-spacing: -1%;
+    line-height: 60%;
+    float: left;
+    margin-top: 6vw;
+    margin-left: 0.3vw;
+    color: #ffdb86;
+    font-weight: bold;
+    cursor: pointer;
+  }
