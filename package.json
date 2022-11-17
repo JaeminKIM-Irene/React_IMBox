@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jaeminkim-irene.github.io/React_IMBox/index.html",
+  "homepage": "https://jaeminkim-irene.github.io/React_IMBox/",
   "eslintConfig": {
     "extends": [
       "react-app",
