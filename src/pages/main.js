@@ -87,14 +87,42 @@ const main = () => {
                 </div>
                 <MHeader />
                 <div className='Mbanner'>
-                    <img src={Mbanner} alt='' className='MbannerImage'/>
+                    <div className='MbannerImage'>
+                        <div className='MbannerBox'>
+                        <Fade bottom distance='2vw'>
+                            <div style={{marginBottom:"7vw"}}>
+                                <div className='MbannerT'>아임박스는</div>
+                                <div className='MbannerT'>스마트 물류 솔루션입니다</div>
+                            </div>
+                        </Fade>
+                        <Fade bottom distance='2vw' delay={200}>
+                            <div className='MbannerT2'>이커머스 셀러를 위한 고객 맞춤형 물류 솔루션</div>
+                            <div className='MbannerT2'>완벽한 풀필먼트 서비스를 제공합니다</div> 
+                        </Fade>
+                        </div>
+                    </div>
+                </div>
+                <Element className='service' name="service">
+                    <Fade bottom distance='2vw'>
                     <img src={Mbanner1} alt='' className='MbannerImage1'/>
-                    <img src={Mbanner2} alt='' className='MbannerImage2'/>
-                </div>
-                <div className='Mbanner2'>
-                    <img src={Mbanner3} alt='' className='MbannerImage3'/>
-                    <img src={Mbanner4} alt='' className='MbannerImage4'/>
-                </div>
+                    </Fade>
+                    <Fade bottom distance='2vw'>
+                        <div>
+                            <img src={Banner2_1} alt='' className='MbannerImage2'/>
+                            <img src={Banner2_2} alt='' className='MbannerImage2'/>
+                            <img src={Banner2_3} alt='' className='MbannerImage2'/>
+                            <img src={Banner2_4} alt='' className='MbannerImage2'/>
+                        </div>
+                    </Fade>
+                </Element>
+                <Element className='Msystem' name="system">
+                    <Fade bottom distance='2vw'>
+                        <img src={Mbanner3} alt='' className='MbannerImage3'/>
+                    </Fade>
+                    <Fade bottom distance='2vw'>
+                        <img src={Mbanner4} alt='' className='MbannerImage4'/>
+                    </Fade>
+                </Element>
                 <MFooter />
                 <div className='MnavDownload' onClick={directToDownload}>
                     <div className='Mdownload'>여기를 클릭해서 </div>

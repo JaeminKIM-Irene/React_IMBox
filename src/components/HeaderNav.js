@@ -61,14 +61,10 @@ const HeaderNav = () => {
         });
     }
 
-    const directToHome = () => {
-        window.location.pathname='/';
-    }
-
     return (
         <div className='HeaderBar'>
             <div className='logoBox'>
-                <img src={Logo} alt="" className='logo' onClick={directToHome}/>
+                <img src={Logo} alt="" className='logo' onClick={() => history('/')}/>
             </div>
             
                 { path === '/' ? (

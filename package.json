@@ -20,11 +20,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jaeminkim-irene.github.io/React_IMBox/",
   "eslintConfig": {
     "extends": [
       "react-app",

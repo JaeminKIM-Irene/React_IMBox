@@ -17,7 +17,7 @@
     margin-top: 10vw;
     color: white;
     font-family: 'pretendard';
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
     
 .Mtext2 {
@@ -25,7 +25,7 @@
     margin-top: 3.5vw;
     color: white;
     font-family: 'pretendard';
-    font-size: 7.5vw;
+    font-size: 6vw;
 
 }
     
@@ -35,7 +35,7 @@
     margin-bottom: 10vw;
     color: white;
     font-family: 'pretendard';
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 .Mtext4 {
@@ -47,26 +47,28 @@
 }
 
 .MfootlogoBox {
-    width: 60%;
+    width: 45%;
     height: 15vw;
-    float: right;
-    margin-top: 13vw;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13vw;
+    margin: auto;
 }
 
 .Mfb {
     width: 10vw;
+    height: 10vw;
     cursor: pointer;
 }
 
 .Mblog {
     width: 10vw;
-    margin-left: 9vw;
-    margin-right: 9vw;
+    height: 10vw;
     cursor: pointer;
 }
 
 .Minsta {
     width: 10vw;
+    height: 10vw;
     cursor: pointer;
 }
